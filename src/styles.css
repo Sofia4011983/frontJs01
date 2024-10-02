@@ -17,13 +17,33 @@ input {
   margin: 8px 0;
   padding: 8px;
 }
+
+.botoes {
+  display: flex;
+  justify-content: center;
+}
+
 #btnCalcular {
+  width: 40%;
+  margin: 0 4px;
   margin: 5px;
   background-color: rgb(23, 45, 85);
   color: rgb(45, 140, 196);
   padding: 8px;
   border-radius: 3px;
   font-weight: bold;
+  border: none;
+}
+#btnLimpar {
+  width: 40%;
+  margin: 0 4px;
+  margin: 5px;
+  background-color: rgb(23, 45, 85);
+  color: rgb(45, 140, 196);
+  padding: 8px;
+  border-radius: 3px;
+  font-weight: bold;
+  border: none;
 }
 
 .resultados {
