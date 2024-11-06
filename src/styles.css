@@ -12,6 +12,10 @@ body {
   padding: 20px;
   border-radius: 8px;
 }
+inputs {
+  display: flex;
+  flex-direction: colum;
+}
 
 input {
   margin: 8px 0;
@@ -21,6 +25,13 @@ input {
 .botoes {
   display: flex;
   justify-content: center;
+}
+
+.mostrar {
+  display: flex;
+}
+.esconder {
+  display: none;
 }
 
 #btnCalcular {

@@ -28,6 +28,9 @@ function calcular() {
   const n1 = Number(numero1.value);
   const n2 = Number(numero2.value);
 
+  resultados.classList.remove("esconder)");
+  resultados.classList.add("mostrar");
+
   soma.innerHTML = `A soma de ${n1} e ${n2} é : ${n1 + n2}`;
 
   subtracao.innerHTML = `A subtração de ${n1} e ${n2} é : ${n1 - n2}`;
@@ -48,8 +51,6 @@ function limparFormulario() {
     document.querySelector("#numero1").focus();
   }
 }
-
-calcular();
 
 //ADICIONAR ESCUTADOR DE ELEMENTOS
 
